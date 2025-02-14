@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+
+    <div class="navbar">
+        <div class="left">
+            <ul>
+                <li><a href=""><span>S</span>hopping <span>4</span>U</a></li>
+                <li><a href="./index.html" class="page" style="color: #2fdab8;">Home</a></li>
+                <li><a href="./about.html" class="page">About</a></li>
+                <li><a href="tel:01201945821" class="page">Contact Us</a></li>
+                <li><a href="./Signup.html" class="page">Sign Up</a></li>
+                <li><a href="../html/cartPage.html"><span><i class="fa-solid fa-cart-shopping"></i></span></a><span id="idnum">0</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="slider" id="imgnow">
+            <div>
+                <!-- <a href=""><span><</span></a>
+                <a href=""><span>></span></a> -->
+            </div>          
+        </div>
+        <section>
+            <img src="../imgs/bottom1.jpg" alt="">
+        <div>
+            <h2><span style="color: #fc636b;">B</span>uy your Favourite Clothes now</h2>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo neque molestias explicabo dolor quaerat eaque nostrum similique deserunt. Molestiae, aperiam distinctio cum aliquam sunt necessitatibus odio laboriosam ipsam iure!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque distinctio quaerat numquam. Quidem cupiditate eveniet corrupti aperiam. Nostrum quas eos vel aut quaerat nemo aperiam pariatur quae voluptatem excepturi.</p>
+            <p style="font-size:small;color:#fc636b;">&nbsp;&nbsp;&nbsp;&nbsp;Since 1999</p>
+        </div>
+        </section><br>
+        
+    </div><br> <br><br> <hr style="width: 50%;">
+   
+    <div class="product">
+        <div>
+            <h1><span>O</span>ur <span>P</span>roducts</h1>
+        </div><br>
+        <div>
+            <ul>
+                <li><a onclick="Clothes()">CLOTHES</a></li>
+                <li><a onclick="Bags()">BAGS</a></li>
+                <li><a onclick="Phones()">PHONES</a></li>
+                <li><a onclick="Footwear()">FOOTWEAR</a></li>
+            </ul>
+        </div>
+        <div class="all-clothes">
+            <div class="row">
+                <div class="cart" data-name="Formal Blue Shirt1" data-price="45.99" data-img="../imgs/m1.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m1.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p >Formal Blue Shirt1</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="Formal Blue Shirt2" data-price="45.99" data-img="../imgs/m2.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m2.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt2</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="Formal Blue Shirt3" data-price="45.99" data-img="../imgs/m2.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m3.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt3</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="Formal Blue Shirt4" data-price="45.99" data-img="../imgs/m4.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m4.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt4</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cart"  data-name="Formal Blue Shirt5" data-price="45.99" data-img="../imgs/m5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt5</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="Formal Blue Shirt6" data-price="45.99" data-img="../imgs/m6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt6</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="Formal Blue Shirt7" data-price="45.99" data-img="../imgs/m7.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m7.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt7</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="Formal Blue Shirt8" data-price="45.99" data-img="../imgs/m8.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/m8.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal Blue Shirt8</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="all-bags">
+            <div class="row">
+                <div class="cart"  data-name="bag1" data-price="45.99" data-img="../imgs/b1.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b1.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bags</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="bag2" data-price="45.99" data-img="../imgs/b2.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b2.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag2</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="bag3" data-price="45.99" data-img="../imgs/b3.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b3.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag3</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"  data-name="bag4" data-price="45.99" data-img="../imgs/b4.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b4.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag4</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cart" data-name="bag5" data-price="45.99" data-img="../imgs/b5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag5</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="bag6" data-price="45.99" data-img="../imgs/b6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag6</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="bag7" data-price="45.99" data-img="../imgs/b7.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b7.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag<7/p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart"data-name="bag8" data-price="45.99" data-img="../imgs/b8.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/b8.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>bag8</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="all-phones">
+            <div class="row">
+                <div class="cart" data-name="phone1" data-price="45.99" data-img="../imgs/p5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone1</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="phone2" data-price="45.99" data-img="../imgs/p6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone2</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="phone3" data-price="45.99" data-img="../imgs/p5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone3</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="phone4" data-price="45.99" data-img="../imgs/p6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone4</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cart" data-name="phone5" data-price="45.99" data-img="../imgs/p5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone5</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="phone6" data-price="45.99" data-img="../imgs/p6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone6</p>
+                        <p>$48.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="phone7" data-price="45.99" data-img="../imgs/p5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone7</p>
+                        <p>$35.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="phone8" data-price="45.99" data-img="../imgs/p6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/p6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>phone8</p>
+                        <p>$55.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$66.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="all-footwear">
+
+
+            <div class="row">
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s1.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s1.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s2.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s2.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s3.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s3.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s4.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s4.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot weart</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s5.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s5.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s6.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s6.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s7.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s7.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+                <div class="cart" data-name="Formal foot wear" data-price="45.99" data-img="../imgs/s8.jpg">
+                    <div class="new"><span>New</span></div><br><br>
+                    <div class="product-img"><img src="../imgs/s8.jpg" alt=""></div>
+                    <div class="cart-details"><br>
+                        <p>Formal foot wear</p>
+                        <p>$45.99 &nbsp;&nbsp;&nbsp;&nbsp;<s>$69.4</s></p>
+                    </div>
+                    <div class="add-to-cart"><br>
+                        <p><a href="" onclick="addToCart(event)">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="footer">
+
+        <div class="footer-info">
+            <div class="cart">
+                <h2><Span>S</Span>hopping 4U</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus amet consectetur adipisicing elit. Repellendus.</p>
+                <div class="social-media-icons">
+                    <div><a href=""><i style="color:rgb(79, 79, 165) ;" class="fab fa-facebook-f"></i></a> <a href=""><i style="color:rgb(64, 214, 252) ;" class="fab fa-twitter"></i></a> <a href=""><i style="color:rgb(8, 83, 133)" class="fab fa-linkedin-in"></i></a> <a href=""><i style="color: #eb8006;" class="fab fa-instagram"></i></a> <a href=""><i style="color: rgb(223, 26, 26);" class="fab fa-youtube"></i></a></div>
+                </div>
+            </div>
+            <div class="cart">
+                <h2>OUR INFORMATION</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus amet consectetur adipisicing elit. Repellendus.</p>
+            </div>
+            <div class="cart">
+                <h2>STORE INFORMATION</h2>
+                <div class="div-info">
+                    <p><span><i class="fa fa-phone" aria-hidden="true"></i></span> Phone Number</p>
+                    <p id="info">+2 0120 194 5821</p>
+                </div>
+                <div class="div-info">
+                    <p><span><i class="fa fa-envelope" aria-hidden="true"></i></span> Emial Address</p>
+                    <p id="info"><a href="mailto:a@g.com">IslamFarhat100@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div><i onclick="topFunction()"style="color:#eb8006 ;float:right;margin:30px;font-size:30px;" class="fas fa-long-arrow-up"></i></div>
+        <hr style="width: 50%;"><br>
+         <p style="text-align: center;color:gray;font-size:small">2022 Shopping 4U. All rights reserved | Design by Islam Farhat</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/demo.js"></script>
+</body>
+
+</html>

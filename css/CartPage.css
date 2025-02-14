@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: #0A1A2A;
+    color: white;
+    z-index: 1000; /* Ensures it's above other elements */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF7F27;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #FF7F27;
+}
+
+.icons span {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+.cart-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cart-table {
+    width: 65%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-table th, .cart-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+}
+
+.product-image {
+    width: 50px;
+}
+
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.remove-btn {
+    background-color: #2fdab8;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #2fdab8;
+}
+
+.cart-summary {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary-row.total {
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.update-btn, .checkout-btn {
+    background-color: #2fdab8;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.update-btn:hover, .checkout-btn:hover {
+    background-color: #2fdab8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #060f18;
+    padding: 75px 0 32px;
+    margin-top: 100px;
+    color: #ffffff;
+  }
+  
+  footer h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #777777;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #ffffff;
+  }
+  
+  footer p {
+    color: #777777;
+  }
+  
+  footer .fs-18 {
+    font-size: 18px;
+  }
+  
+  footer .cl7 {
+    color: #777777;
+  }
+  
+  footer .hov-cl1:hover {
+    color: #ffffff;
+  }
+  
+  footer .m-r-16 {
+    margin-right: 16px;
+  }
+  
+  footer .wrap-input1 {
+    position: relative;
+    margin-bottom: 18px;
+  }
+  
+  footer .input1 {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #333333;
+    color: #777777;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer .input1::placeholder {
+    color: #777777;
+  }
+  
+  footer .size-103 {
+    background-color: #6366f1;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer .size-103:hover {
+    background-color: #4f46e5;
+  }
+  
+  footer .flex-c-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .flex-w {
+    flex-wrap: wrap;
+  }
+  
+  footer .m-all-1 img {
+    margin: 5px;
+    width: 40px;
+    height: auto;
+  }
+  
+  footer .txt-center {
+    text-align: center;
+  }
+  
+  footer .p-b-18 {
+    padding-bottom: 18px;
+  }
+  
+  footer .p-t-40 {
+    padding-top: 40px;
+  }
+  
+  footer .p-t-75 {
+    padding-top: 75px;
+  }
+  
+  footer .p-b-32 {
+    padding-bottom: 32px;
+  }
+  
+  footer .cl6 {
+    color: #777777;
+  }
