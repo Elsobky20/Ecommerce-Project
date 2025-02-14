@@ -118,7 +118,7 @@ function Login() {
         Swal.fire({
             icon: "error",
             title: "Oops...",
-            text: "Please check the highlighted fields and correct the errors.",
+            text: "Please check the fields and correct the errors.",
         });
     }
 }
